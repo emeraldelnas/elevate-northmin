@@ -1,0 +1,47 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+
+  background-color: #fff;
+  color: $text-blue;
+
+  border: 0;
+  border-radius: 20px 3px;
+  outline: 0;
+
+  font-size: .75rem;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding: .9rem 1.5rem;
+
+  transition: 0.3s ease !important;
+
+  &-primary {
+      background-color: $primary-color;
+      color: #fff;
+
+      &:hover {
+          background-color: #fff;
+          color: $text-blue;
+      }
+  }
+  &-grow {
+    transition: padding 0.2s ease-out;
+    &:hover {
+      padding: 0.9rem 2.5rem 0.9rem 1.7rem;
+    }
+  }
+}
+
+.google-play-btn,
+.app-store-btn {
+  display: inline-flex;
+  outline: 0;
+  cursor: pointer;
+}

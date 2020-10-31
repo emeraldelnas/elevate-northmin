@@ -1,15 +1,72 @@
 #bg-vid {
   background-color: #1f1f1f;
-  position: absolute;
+  position: fixed;
   top:0;
-  width: 100%;
-  min-width: 100%;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
   z-index: -1;
 }
 
-h1 {
+.section-header {
   font-family: 'Kanit', sans-serif;
-  font-size: 10.5rem;
-  line-height: 0.8;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  letter-spacing: .42px;
+  margin-bottom: 3rem;
 }
+
+.section-1 {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+
+  .header-text {
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 10.5rem;
+    font-style: italic;
+    line-height: 0.8;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    letter-spacing: 3px;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    margin-top: 3rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+
+    &-grow:hover {
+      padding: 1rem 3rem 1rem 2.5rem;
+    }
+  }
+}
+
+
+.section-2 {
+  background-color: #fff;
+  background-image: linear-gradient(to left, rgb(45 45 45 / 30%) 0%, rgba(0, 0, 0, 0) 60%);
+  padding: 8rem 0;
+  text-align: center;
+  opacity: 0.95;
+
+  img {
+    padding-left: 4px;
+    max-width: 320px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    letter-spacing: .4px;
+    line-height: 1.618;
+    max-width: 38rem;
+    margin: 3rem auto auto;
+  }
+
+}
+
+
