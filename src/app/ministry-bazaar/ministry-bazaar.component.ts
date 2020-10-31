@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MinistryBazaarComponent implements OnInit {
 
+  readonly image = '../../assets/ministry-bazaar/bg.jpg';
+
   constructor() { }
 
   ngOnInit(): void {
