@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "elevate-northmin"
+    "default": "elevate-northmin",
     "cdo": "elevate-cdo"
   },
   "targets": {
