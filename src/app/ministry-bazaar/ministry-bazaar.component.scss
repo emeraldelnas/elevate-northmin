@@ -1,0 +1,20 @@
+#bg-vid {
+  background-image: url(../../assets/ministry-bazaar/bg.jpg);
+  background-color: #1f1f1f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 10.5rem;
+  line-height: 0.8;
+  letter-spacing: 2px;
+}

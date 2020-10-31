@@ -1,12 +1,20 @@
 {
   "projects": {
     "default": "elevate-northmin"
+    "cdo": "elevate-cdo"
   },
   "targets": {
     "elevate-northmin": {
       "hosting": {
         "elevate-northmin": [
           "elevate-northmin"
+        ]
+      }
+    },
+    "elevate-cdo": {
+      "hosting": {
+        "elevate-cdo": [
+          "elevate-cdo"
         ]
       }
     }

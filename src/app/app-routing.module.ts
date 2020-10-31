@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MinistryBazaarComponent } from './ministry-bazaar/ministry-bazaar.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: MinistryBazaarComponent },
+  { path: '**', redirectTo: '/' },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
