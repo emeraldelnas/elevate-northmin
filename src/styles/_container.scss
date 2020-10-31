@@ -17,9 +17,9 @@
     max-width: $container-max-width-lg;
   }
   @media (min-width: $breakpoints-xl) {
-    max-width: $container-max-width-xl;
+    max-width: $container-max-width-lg;
   }
   @media (min-width: $breakpoints-xxl) {
-    max-width: $container-max-width-xxl;
+    max-width: $container-max-width-xl;
   }
 }

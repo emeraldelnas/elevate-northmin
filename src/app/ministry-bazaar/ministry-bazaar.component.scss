@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 #bg-vid {
   background-color: #1f1f1f;
   position: fixed;
@@ -9,11 +11,26 @@
   z-index: -1;
 }
 
+.section {
+  padding: 8rem 0;
+}
+
 .section-header {
   font-family: 'Kanit', sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: .42px;
-  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 5.25rem;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    height: 0.5rem;
+    width: 4rem;
+    background-color: $text-yellow;
+  }
 }
 
 .section-1 {
@@ -50,7 +67,6 @@
 .section-2 {
   background-color: #fff;
   background-image: linear-gradient(to left, rgb(45 45 45 / 30%) 0%, rgba(0, 0, 0, 0) 60%);
-  padding: 8rem 0;
   text-align: center;
   opacity: 0.95;
 
@@ -69,4 +85,44 @@
 
 }
 
+
+.section-3 {
+  .ministries-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: end;
+    gap: 4rem 2.5rem;
+
+    .ministry-link {
+      position: relative;
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        filter: grayscale(1);
+      }
+
+      p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        img {
+          filter: grayscale(0);
+        }
+      }
+    }
+  }
+}
 

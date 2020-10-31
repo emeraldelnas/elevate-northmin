@@ -21,8 +21,8 @@ export class ImgLazyLoadDirective implements AfterViewInit {
     const obs = new IntersectionObserver(entries => {
       entries.forEach(({ isIntersecting }) => {
         if (isIntersecting) {
-          this.loadImage();
 
+          this.loadImage();
           obs.unobserve(this.el.nativeElement);
         }
       });
