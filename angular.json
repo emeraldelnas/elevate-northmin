@@ -121,8 +121,13 @@
               "devServerTarget": "elevate-northmin:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "elevate-northmin"
 }

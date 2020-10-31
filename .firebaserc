@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "elevate-northmin"
+  },
+  "targets": {
+    "elevate-northmin": {
+      "hosting": {
+        "elevate-northmin": [
+          "elevate-northmin"
+        ]
+      }
+    }
+  }
+}
