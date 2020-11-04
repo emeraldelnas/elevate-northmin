@@ -1,0 +1,37 @@
+.social-links {
+  display: flex;
+  align-items: center;
+
+  .social-link {
+    &:not(:last-child) {
+      margin-right: 0.4rem;
+    }
+
+    &-black {
+      svg path {
+        fill: #333;
+      }
+    }
+
+    svg {
+      vertical-align: top;
+      width: 28px;
+      height: auto;
+      transition: all .3s ease-in;
+    }
+
+    &:nth-child(2) svg {
+      width: 26.325px;
+    }
+
+    &:nth-child(3) svg {
+      width: 30px;
+    }
+
+    &:hover {
+      svg {
+        opacity: .45;
+      }
+    }
+  }
+}

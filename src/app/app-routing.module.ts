@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MinistryBazaarComponent } from './ministry-bazaar/ministry-bazaar.component';
+import { MinistryBazaarComponent } from './pages/ministry-bazaar/ministry-bazaar.component';
 
 
 const routes: Routes = [
