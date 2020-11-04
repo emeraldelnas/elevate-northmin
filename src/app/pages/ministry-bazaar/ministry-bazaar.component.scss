@@ -52,7 +52,7 @@
     margin-top: 1rem;
   }
 
-  .btn {
+  .btn, .btn-link {
     margin-top: 3rem;
     font-size: 1rem;
     padding: 1rem 2rem;
@@ -67,20 +67,31 @@
 .section-2 {
   background-color: #fff;
   background-image: linear-gradient(to left, rgb(45 45 45 / 30%) 0%, rgba(0, 0, 0, 0) 60%);
-  text-align: center;
   opacity: 0.95;
+  padding: 12rem 0;
 
   img {
     padding-left: 4px;
-    max-width: 320px;
   }
 
-  p {
-    font-size: 1.5rem;
+  p:not(.section-header) {
+    font-size: 1.8rem;
     letter-spacing: .4px;
-    line-height: 1.618;
-    max-width: 38rem;
-    margin: 3rem auto auto;
+    line-height: 1.45;
+    max-width: 43rem;
+    margin-top: 3rem;
+  }
+
+  .mission, .vision {
+    margin-top: 10rem;
+
+    p.section-header {
+      margin-bottom: 2rem;
+
+      &:after {
+        background-color: #26238C;
+      }
+    }
   }
 
 }
