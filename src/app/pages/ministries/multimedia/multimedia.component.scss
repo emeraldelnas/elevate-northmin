@@ -1,0 +1,34 @@
+.ministry-header {
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../../../../assets/ministry-bazaar/bg/multimedia-bg.jpg);
+
+  background-position: left -30vh;
+}
+
+.test {
+  h1 {
+    font-size: 5rem;
+    font-family: 'Kanit';
+    font-style: italic;
+    letter-spacing: 0.25rem;
+    display: inline-block;
+    position: relative;
+
+    &:after {
+      content: "";
+      background-color: #b1282e;
+      width: 100%;
+      height: 35%;
+      position: absolute;
+      bottom: 7%;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    margin-top: 0.25rem;
+  }
+}
