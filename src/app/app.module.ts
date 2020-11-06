@@ -20,6 +20,7 @@ import { TwelveBasketsComponent } from './pages/ministries/twelve-baskets/twelve
 import { MarketingComponent } from './pages/ministries/marketing/marketing.component';
 import { RndComponent } from './pages/ministries/rnd/rnd.component';
 import { CraftsComponent } from './pages/ministries/crafts/crafts.component';
+import { JoinNowBannerComponent } from './shared/join-now-banner/join-now-banner.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CraftsComponent } from './pages/ministries/crafts/crafts.component';
     TwelveBasketsComponent,
     MarketingComponent,
     RndComponent,
-    CraftsComponent
+    CraftsComponent,
+    JoinNowBannerComponent
   ],
   imports: [
     BrowserModule,

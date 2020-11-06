@@ -19,7 +19,7 @@
 
 .ministry-content {
   color: #222;
-  padding: 4rem 0;
+  padding: 6rem 0 12rem;
 
   h1 {
     font-size: 5rem;
@@ -87,7 +87,7 @@
 
 @media (max-width: $breakpoints-sm) {
   .ministry-header {
-    background-size: contain;
+    background-size: 100%;
     background-position: inherit !important;
     min-height: 30vh;
   }
