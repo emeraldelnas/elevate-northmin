@@ -14,6 +14,7 @@ import { TwelveBasketsComponent } from './pages/ministries/twelve-baskets/twelve
 import { MarketingComponent } from './pages/ministries/marketing/marketing.component';
 import { RndComponent } from './pages/ministries/rnd/rnd.component';
 import { CraftsComponent } from './pages/ministries/crafts/crafts.component';
+import { PrayerPartnerComponent } from './pages/ministries/prayer-partner/prayer-partner.component';
 
 const routes: Routes = [
   { path: '', component: MinistryBazaarComponent },
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'ministries/marketing', component: MarketingComponent },
   { path: 'ministries/rnd', component: RndComponent },
   { path: 'ministries/crafts', component: CraftsComponent },
+  { path: 'ministries/prayer-partner', component: PrayerPartnerComponent },
   { path: '**', redirectTo: '/' },
 ];
 
