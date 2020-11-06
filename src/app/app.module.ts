@@ -22,6 +22,7 @@ import { RndComponent } from './pages/ministries/rnd/rnd.component';
 import { CraftsComponent } from './pages/ministries/crafts/crafts.component';
 import { JoinNowBannerComponent } from './shared/join-now-banner/join-now-banner.component';
 import { PrayerPartnerComponent } from './pages/ministries/prayer-partner/prayer-partner.component';
+import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { PrayerPartnerComponent } from './pages/ministries/prayer-partner/prayer
     RndComponent,
     CraftsComponent,
     JoinNowBannerComponent,
-    PrayerPartnerComponent
+    PrayerPartnerComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,

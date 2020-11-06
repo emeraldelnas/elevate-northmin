@@ -1,0 +1,14 @@
+.back-link {
+  display: flex;
+  align-items: center;
+  color: #222;
+  margin-top: 2rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  svg {
+    margin-right: 6px;
+  }
+}
