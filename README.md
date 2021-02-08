@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployment
 
-Rung `ng build --prod && firebase deploy -P cdo`
+Run `ng build --prod && firebase deploy -P cdo`
 
 ## Development server
 
